@@ -1,0 +1,33 @@
+server:
+  port: 8090 #服务端口
+
+spring:
+  application:
+    name: payment-demo #应用的名字
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://117.72.43.162:3306/payment?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: yp20000930
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 30000
+      max-lifetime: 600000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+      validation-timeout: 5000 #验证连接有效性的超时时间，在尝试验证从连接池中取出的连接是否任然有效时，设定超时的最大时间
+
+mybatis-plus:
+  configuration: #sql日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:com/atguigu/paymentdemo/mapper/xml/*.xml
+
+logging:
+  level:
+    root: info
