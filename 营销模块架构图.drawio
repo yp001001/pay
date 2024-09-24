@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="bq6ZyDoePt_O2G5WwTNI">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iKIf3eELIUASGLzbJY0j-16" value="抽奖运营后台" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;direction=south;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="140" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-12" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="150" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-13" value="活动预热" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-14" value="抽奖策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-15" value="奖品发放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-17" value="人群决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="460" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-20" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="160" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-21" value="预热活动SKU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-22" value="预热每个SKU对应的每人活动次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iKIf3eELIUASGLzbJY0j-23" value="预热策略装配，奖品信息，奖品概率信息，包括权重信息，奖品数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
