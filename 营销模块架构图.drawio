@@ -82,8 +82,14 @@
         <mxCell id="Unxk11T3wrKeqkshm5f9-1" value="执行抽奖，进行黑名单，权重或者默认抽奖" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1330" y="460" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Unxk11T3wrKeqkshm5f9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Unxk11T3wrKeqkshm5f9-3" target="Unxk11T3wrKeqkshm5f9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Unxk11T3wrKeqkshm5f9-3" value="对奖品进行库存判断，抽奖次数判断获取最终奖品" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="1190" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Unxk11T3wrKeqkshm5f9-5" value="生成记录" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="460" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
